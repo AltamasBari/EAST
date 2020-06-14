@@ -975,9 +975,9 @@ td, th {
 }
 
 .is-sticky .sticky-header {
-  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
-  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
-  background: linear-gradient(to right, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+  background: -moz-linear-gradient(left, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
+  background: -webkit-linear-gradient(left,rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
+  background: linear-gradient(to right, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
 }
 
 .search {
