@@ -956,7 +956,7 @@ td, th {
     position: absolute;
     top: 40px;
     right: 0;
-    background: #4a4fad;
+    background: #e02827;
     padding: 30px 20px;
   }
   .default-header .main-menu a {
@@ -1215,7 +1215,7 @@ td, th {
 .single-filter-content .overlay-bg-content {
   background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
   background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
-  background: linear-gradient(to right, rgba(38, 46, 64, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
+  background: linear-gradient(to right, rgba(38, 46, 64, 0.8) 0%, rgba(186, 189, 188, 0.8) 100%);
   text-align: center;
   padding: 50px 100px;
   opacity: 0;
@@ -1286,7 +1286,7 @@ td, th {
 .single-member .thumb .overlay-member {
   background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
   background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
-  background: linear-gradient(to right, rgba(38, 46, 64, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
+  background: linear-gradient(to right, rgba(38, 46, 64, 0.8) 0%, rgba(186, 189, 188, 0.8) 100%);
   text-align: center;
   padding: 30px;
   opacity: 0;
