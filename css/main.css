@@ -922,7 +922,7 @@ td, th {
 
 .default-header nav .main-menu a {
   display: inline-block;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.600);
   margin: 0 20px;
   text-transform: uppercase;
   font-size: 12px;
@@ -935,13 +935,13 @@ td, th {
 }
 
 .default-header nav .main-menu a:hover {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .default-header nav .mobile-btn {
   display: none;
   font-size: 36px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media (max-width: 767px) {
@@ -970,9 +970,9 @@ td, th {
   }
 }
 
-.sticky-header {
+/* .sticky-header {
   padding: 15px 0;
-}
+} */
 
 .is-sticky .sticky-header {
   background: -moz-linear-gradient(left, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
@@ -1102,7 +1102,7 @@ td, th {
 .banner-area .overlay-bg {
   background: -moz-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
   background: -webkit-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
-  background: linear-gradient(to right, rgba(38, 46, 64, 0.95) 0%, rgba(38, 46, 64, 0.95) 100%);
+  background:  rgba(38, 46, 64, 0.7);
 }
 
 .signle-service {
