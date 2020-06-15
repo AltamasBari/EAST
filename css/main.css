@@ -734,7 +734,7 @@ td, th {
   padding: 0 40px;
   border-radius: 20px;
   background: transparent;
-  border: 1px solid #e02827;
+  border: 2px solid #e02827;
   color: #222222;
   display: inline-block;
   font-weight: 600;
@@ -955,7 +955,7 @@ td, th {
     position: absolute;
     top: 40px;
     right: 0;
-    background: #e85b5a;
+    background: #4a4fad;
     padding: 30px 20px;
   }
   .default-header .main-menu a {
