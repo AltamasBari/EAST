@@ -1631,3 +1631,8 @@ footer .footer-nav li a:hover {
 .footer-bottom .footer-text a:hover {
   color: #e85b5a;
 }
+
+.smooth{
+	height: 50px;
+	width: 50px;
+}
