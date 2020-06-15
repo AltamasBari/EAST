@@ -1632,7 +1632,20 @@ footer .footer-nav li a:hover {
   color: #e85b5a;
 }
 
+.logo1{
+	height: 200px;
+	width: 200px
+}
+
+.footer-tag{
+	margin-left: -310px;
+}
+
+.footer-link:hover {
+	color: #e85b5a;
+}
 /* .smooth{
 	height: 40px;
 	width: 40px;
 } */
+
