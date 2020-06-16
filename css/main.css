@@ -1315,8 +1315,8 @@ td, th {
 }
 
 .single-member .thumb .overlay-member .social a {
-  color: rgba(255, 255, 255, 0.5);
-  margin: 0 4px;
+  color: #262e40;
+  margin: 0 5px;
   padding: 2px;
 
 }
@@ -1361,13 +1361,13 @@ td, th {
   top: 0;
   width: 50%;
   height: 100%;
-  background: #262e40;
+  background: #404598;
   z-index: 2;
 }
 
 @media (max-width: 991px) {
   .studio-area:before {
-    background: rgba(38, 46, 64, 0.95);
+    background: rgba(64, 69, 152, 0.95);
     width: 100%;
   }
 }
