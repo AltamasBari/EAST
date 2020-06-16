@@ -1354,7 +1354,7 @@ td, th {
   top: 0;
   width: 50%;
   height: 100%;
-  background: #e85b5a;
+  background: rgb(38, 46, 64);
   z-index: 2;
 }
 
