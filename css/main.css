@@ -1098,7 +1098,7 @@ td, th {
 }
 
 .banner-area {
-  background: url(../img/background.jfif) no-repeat center center/cover;
+  background: url(../img/main-backgr.jpg) no-repeat center center/cover;
 }
 
 .banner-area .overlay-bg {
@@ -1367,7 +1367,7 @@ td, th {
 
 @media (max-width: 991px) {
   .studio-area:before {
-    background: rgba(64, 69, 152, 0.95);
+    background: rgba(38, 46, 64, 0.95);
     width: 100%;
   }
 }
@@ -1379,7 +1379,7 @@ td, th {
   top: 0;
   width: 50%;
   height: 100%;
-  background: url(../img/studio-bg.jpg) no-repeat center center/cover;
+  background: url(../img/hand.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 
