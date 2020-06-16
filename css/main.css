@@ -978,7 +978,7 @@ td, th {
 .is-sticky .sticky-header {
   background: -moz-linear-gradient(left, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
   background: -webkit-linear-gradient(left,rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
-  background: linear-gradient(to right, rgba(194, 37, 39, 0.95) 0%, rgba(194, 37, 39, 0.95) 100%);
+  background: linear-gradient(to right, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
 }
 
 .search {
@@ -1074,7 +1074,7 @@ td, th {
   margin: 0 5px;
   padding: 0 5px;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .header-social a:hover {
@@ -1098,12 +1098,12 @@ td, th {
 }
 
 .banner-area {
-  background: url(../img/backgr.jpg) no-repeat center center/cover;
+  background: url(../img/background.jfif) no-repeat center center/cover;
 }
 
 .banner-area .overlay-bg {
-  background: -moz-linear-gradient(left, rgba(38, 46, 64, 0.7) 0%, rgba(38, 46, 64, 0.7) 100%);
-  background: -webkit-linear-gradient(left, rgba(38, 46, 64, 0.7) 0%, rgba(38, 46, 64, 0.7) 100%);
+  background: -moz-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
+  background: -webkit-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
   background:  rgba(38, 46, 64, 0.7);
 }
 
@@ -1213,9 +1213,9 @@ td, th {
 }
 
 .single-filter-content .overlay-bg-content {
-  background: -moz-linear-gradient(left, rgba(232, 91, 90, 0.7) 0%, rgba(232, 91, 90, 0.7) 100%);
-  background: -webkit-linear-gradient(left, rgba(232, 91, 90, 0.7) 0%, rgba(232, 91, 90, 0.7) 100%);
-  background:  rgba(232, 91, 90, 0.7);
+  background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+  background: linear-gradient(to right, rgba(38, 46, 64, 0.8) 0%, rgba(186, 189, 188, 0.8) 100%);
   text-align: center;
   padding: 50px 100px;
   opacity: 0;
@@ -1284,9 +1284,15 @@ td, th {
 }
 
 .single-member .thumb .overlay-member {
-  background: -moz-linear-gradient(left, rgba(232, 91, 90, 0.7) 0%, rgba(232, 91, 90, 0.7) 100%);
-  background: -webkit-linear-gradient(left, rgba(232, 91, 90, 0.7) 0%, rgba(232, 91, 90, 0.7) 100%);
-  background:  rgba(232, 91, 90, 0.7);
+  /*background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+  background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+  background: linear-gradient(to right, rgba(38, 46, 64, 0.8) 0%, rgba(186, 189, 188, 0.8) 100%); */
+    background: -moz-linear-gradient(left, rgba(186, 189, 188, 0.5) 0%, rgba(186, 189, 188, 0.5) 100%);
+  background: -webkit-linear-gradient(left, rgba(186, 189, 188, 0.5) 0%, rgba(186, 189, 188, 0.95) 100%);
+  background: linear-gradient(to right, rgba(186, 189, 188, 0.5) 0%, rgba(186, 189, 188, 0.5) 100%);
+    
+    
+    
   text-align: center;
   padding: 30px;
   opacity: 0;
@@ -1312,10 +1318,11 @@ td, th {
   color: rgba(255, 255, 255, 0.5);
   margin: 0 4px;
   padding: 2px;
+
 }
 
 .single-member .thumb .overlay-member .social a:hover {
-  color: #fff;
+  color: black;
 }
 
 .single-member .thumb:hover .overlay-member {
@@ -1354,13 +1361,13 @@ td, th {
   top: 0;
   width: 50%;
   height: 100%;
-  background: rgb(38, 46, 64);
+  background: #404598;
   z-index: 2;
 }
 
 @media (max-width: 991px) {
   .studio-area:before {
-    background: rgba(232, 91, 90, 0.8);
+    background: rgba(64, 69, 152, 0.95);
     width: 100%;
   }
 }
