@@ -978,7 +978,7 @@ td, th {
 .is-sticky .sticky-header {
   background: -moz-linear-gradient(left, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
   background: -webkit-linear-gradient(left,rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
-  background: linear-gradient(to right, rgba(194, 37, 39, 0.99) 0%, rgba(38, 46, 64, 0.6) 100%);
+  background: linear-gradient(to right, rgba(194, 37, 39, 0.95) 0%, rgba(194, 37, 39, 0.95) 100%);
 }
 
 .search {
@@ -1215,7 +1215,7 @@ td, th {
 .single-filter-content .overlay-bg-content {
   background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
   background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
-  background: linear-gradient(to right, rgba(38, 46, 64, 0.8) 0%, rgba(186, 189, 188, 0.8) 100%);
+  background:  rgba(232, 91, 90, 0.7);
   text-align: center;
   padding: 50px 100px;
   opacity: 0;
@@ -1286,7 +1286,7 @@ td, th {
 .single-member .thumb .overlay-member {
   background: -moz-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
   background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
-  background: linear-gradient(to right, rgba(38, 46, 64, 0.8) 0%, rgba(186, 189, 188, 0.8) 100%);
+  background:  rgba(232, 91, 90, 0.7);
   text-align: center;
   padding: 30px;
   opacity: 0;
@@ -1354,13 +1354,13 @@ td, th {
   top: 0;
   width: 50%;
   height: 100%;
-  background: #404598;
+  background: #e85b5a;
   z-index: 2;
 }
 
 @media (max-width: 991px) {
   .studio-area:before {
-    background: rgba(64, 69, 152, 0.95);
+    background: rgba(232, 91, 90, 0.8);
     width: 100%;
   }
 }
