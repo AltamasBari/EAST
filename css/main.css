@@ -976,9 +976,9 @@ td, th {
 } */
 
 .is-sticky .sticky-header {
-  background: -moz-linear-gradient(left, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
-  background: -webkit-linear-gradient(left,rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
-  background: linear-gradient(to right, rgba(194, 37, 39,0.95) 0%, rgba(224, 40, 39, 0.95) 100%);
+  background: #1a2335;
+  background: #1a2335;
+  background:#1a2335;
 }
 
 .search {
