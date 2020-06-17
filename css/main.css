@@ -1101,17 +1101,7 @@ td, th {
   background: url(../img/mainbg.png) no-repeat center center/cover;
 }
 
-.about-us-area {
-  background: url(../img/aboutbg2.jpg) no-repeat center center/cover;
-}
-
 .banner-area .overlay-bg {
-  background: -moz-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
-  background: -webkit-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
-  background:  rgba(38, 46, 64, 0.7);
-}
-
-.about-us-area .overlay-bg {
   background: -moz-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
   background: -webkit-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
   background:  rgba(38, 46, 64, 0.7);
@@ -1685,6 +1675,6 @@ footer .footer-nav li a:hover {
   outline: none;
 }
 
-/*#explore{
+#explore{
   background: url(/img/aboutbg3.jpg) no-repeat center center/cover;
-}*/
+}
