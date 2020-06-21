@@ -1844,7 +1844,7 @@ footer .footer-nav li a:hover {
   }
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   #scroll {
   position: absolute;
   margin-top: 50%;
@@ -1888,7 +1888,7 @@ footer .footer-nav li a:hover {
   border-radius: 50px;
   box-sizing: border-box;
   }
-}
+} */
 #vector:before {
   color: green;
   content: '✓ ';
