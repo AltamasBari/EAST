@@ -1379,7 +1379,7 @@ td, th {
   top: 0;
   width: 50%;
   height: 100%;
-  background: url(../img/hand.jpg) no-repeat center center/cover;
+  background: url(../img/vector/vhand.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 
@@ -1676,7 +1676,7 @@ footer .footer-nav li a:hover {
   background-color: rgb(190, 4, 3);
 }
 
-#c-btn {
+/* #c-btn {
   line-height: 40px;
   padding: 0 40px;
   border-radius: 20px;
@@ -1695,7 +1695,7 @@ footer .footer-nav li a:hover {
 #c-btn:hover {
   outline: none;
   background-color: rgb(190, 4, 3);
-}
+} */
 
 #explore{
   background: url(../img/aboutusbg.jpeg) no-repeat center center/cover;
