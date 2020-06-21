@@ -1784,6 +1784,10 @@ footer .footer-nav li a:hover {
   .ul-check.primary li:before {
     color: #4285f4; }
 
+#scroll:hover {
+  opacity: .5;
+  
+}
 
 #scroll {
   position: absolute;
