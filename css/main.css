@@ -1101,11 +1101,11 @@ td, th {
   background: url(../img/vector/vbg.jpg) no-repeat center center/cover;
 }
 
-.banner-area .overlay-bg {
+/* .banner-area .overlay-bg {
   background: -moz- rgba(38, 46, 64, 0.7);
   background: -webkit- rgba(38, 46, 64, 0.7);
   background:  rgba(38, 46, 64, 0.7);
-}
+} */
 
 .signle-service {
   margin-top: 30px;
