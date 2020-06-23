@@ -1746,11 +1746,11 @@ footer .footer-nav li a:hover {
 }
 .swiper-pagination .swiper-pagination-bullet{
     opacity: 1;
-    background: #868e96;
+    background: #C8C8C8;
 }
 .swiper-pagination .swiper-pagination-bullet-active{
     opacity: 1;
-    background: #262e40;
+    background: #d9534f;
 }
 .swiper-slide .details .social a{
   color: #868e96;
@@ -1759,7 +1759,7 @@ footer .footer-nav li a:hover {
     padding-bottom: 0px;
 }
 .swiper-slide .details .social a:hover{
-    color: #262e40;
+    color: #d9534f;
 }
 /* END OF SWIPER*/
 
@@ -1898,7 +1898,7 @@ footer .footer-nav li a:hover {
   content: '✓ ';
 }
 
-/*FAQ AREA */
+/*START FAQ AREA */
 .accordion{
     width: 90%;
     max-width: 1000px;
@@ -1909,14 +1909,14 @@ footer .footer-nav li a:hover {
     background: #fff;
     margin: 1rem 0;
     border-radius: 0.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
     
 }
 .accordion-item-header{
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
-    line-height: 1.25rem;
-    font-weight: bold;
+    line-height: 1.35rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
     position: relative;
@@ -1928,6 +1928,7 @@ footer .footer-nav li a:hover {
     position: absolute;
     right: 1rem;
     transition: transform 0.1s ease-in-out;
+    
 }
 .accordion-item-header.active::after{
     /*content: "\2212";*/
