@@ -971,9 +971,9 @@ td, th {
   }
 }
 
-/* .sticky-header {
-  padding: 15px 0;
-} */
+.sticky-header {
+  padding: 8px 0px 8px 0px;
+}
 
 .is-sticky .sticky-header {
   background: #1a2335;
@@ -1102,8 +1102,8 @@ td, th {
 }
 
 .banner-area .overlay-bg {
-  background: -moz-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
-  background: -webkit-linear-gradient(left, rgba(190, 4, 3, 0.95) 0%, rgba(186, 189, 188, 0.95) 100%);
+  background: -moz- rgba(38, 46, 64, 0.7);
+  background: -webkit- rgba(38, 46, 64, 0.7);
   background:  rgba(38, 46, 64, 0.7);
 }
 
@@ -1548,7 +1548,7 @@ td, th {
 }
 
 footer {
-  background: #222222;
+  background: #1a2335;
 }
 
 footer .footer-nav {
@@ -1697,9 +1697,6 @@ footer .footer-nav li a:hover {
   background-color: rgb(190, 4, 3);
 } */
 
-#explore{
-  background: url(../img/aboutusbg.jpeg) no-repeat center center/cover;
-}
 /* ----------------------
 ------SWIPER------------
 -------------------------*/
@@ -1921,6 +1918,7 @@ footer .footer-nav li a:hover {
     align-items: center;
     position: relative;
     cursor: pointer;
+    
 }
 .accordion-item-header::after{
     content: "\25BE";
@@ -1971,4 +1969,23 @@ footer .footer-nav li a:hover {
 
 #why-us{
   width: 100%;
+}
+
+
+.list-display li {
+  margin-bottom:.4rem;
+  font-size:1.1rem;
+}
+.list-checkmarks {
+  padding-left:1.5rem;
+}
+.list-checkmarks li {
+  list-style-type:none;
+  padding-left:1rem;
+}
+.list-checkmarks li:before {    
+font-family: 'FontAwesome';
+content: "\f00c";
+margin:0 10px 0 -28px;
+color: #675EAC;
 }
