@@ -1379,7 +1379,7 @@ td, th {
   top: 0;
   width: 50%;
   height: 100%;
-  background: url(../img/vector/vhand.jpg) no-repeat center center/cover;
+  background: url(../img/vector/vhandNew.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 
@@ -1960,5 +1960,15 @@ footer .footer-nav li a:hover {
 /*END FAQ AREA*/
 
 
+.whyUs{
+  height: 90px;
+  width: 100px;
+}
 
+#whyuss{
+  float: left;
+}
 
+#why-us{
+  width: 100%;
+}
