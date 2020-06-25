@@ -969,7 +969,7 @@ td, th {
     display: block !important;
     font-size: 36px !important;
     position: absolute;
-    top: 0;
+    /*top: 0;*/
     right: 0;
   }
 }
@@ -1064,6 +1064,7 @@ td, th {
 
 .header-social {
   margin-left: 20px;
+    margin-right: 50px;
 }
 
 @media (max-width: 767px) {
