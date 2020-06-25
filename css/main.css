@@ -1980,13 +1980,13 @@ color: #675EAC;
 .demo a {
   position: absolute;
   bottom: 20px;
-  left: 50%;
+  left: 46.75%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font : normal 400 20px/1 'Poppins', sans-serif;
+  /* font : normal 400 20px/1 'Poppins', sans-serif; */
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
@@ -2002,7 +2002,7 @@ color: #675EAC;
 #section10 a span {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 46.75%;
   width: 30px;
   height: 50px;
   margin-left: -15px;
@@ -2013,7 +2013,7 @@ color: #675EAC;
 #section10 a span::before {
   position: absolute;
   top: 10px;
-  left: 50%;
+  left: 46.75%;
   content: '';
   width: 6px;
   height: 6px;
