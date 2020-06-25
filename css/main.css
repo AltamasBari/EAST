@@ -722,6 +722,9 @@ td, th {
   .no-flex-xs {
     display: block !important;
   }
+  .features-content{
+    padding-left: 80px;
+}
 }
 
 .row.no-margin {
