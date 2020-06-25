@@ -1913,7 +1913,7 @@ footer .footer-nav li a:hover {
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.35rem;
-    font-weight: 500;
+    font-weight: bold;
     display: flex;
     align-items: center;
     position: relative;
@@ -1945,6 +1945,8 @@ footer .footer-nav li a:hover {
     border-top: 1px solid;
     
 }
+.accordion-item-header.active{
+    color: red;
 /*.accordion-item-header.active + .accordion-item-body{
     max-height: auto;
 }*/
