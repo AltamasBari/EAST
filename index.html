@@ -32,6 +32,9 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> -->
 
+		<!-- <link rel="stylesheet" href="css/bootstrap-get.css"> -->
+		<link rel="stylesheet" href="css/bootstrap-grid.css">
+
 	</head>
 
 	<body>
@@ -70,23 +73,36 @@
 		<!-- End Header Area -->
 		<!-- Start Banner Area -->
 		<section class="banner-area relative">
-			<div class="overlay overlay-bg"></div>
 			<div class="container">
 				<div class="row fullscreen justify-content-center align-items-center">
-					<div class="col-lg-8">
+					<div class="col-md-6 offset-md-6">
 						<div class="banner-content text-center">
 							<h1 class="text-uppercase text-white">E.A.S.T</h1>
-							<h3 class="text text-white">Entrepreneurship Accords and Startup Growth Traffic</h3>
-							<!-- <a href="#explore" class="primary-btn banner-btn">Explore Us</a> -->
+							<h3 class="text text-white ">Entrepreneurship Accords and Startup Growth Traffic</h3>
+							
 							<!-- <a href="#about-section" class="primary-btn banner-btn">Explore Us</a> -->
-							<a href="#about-section"><span id="scroll"></span></a>	
+
+							<!-- <a href="#about-section"><span id="scroll"></span></a> -->
 						</div>
 					</div>
 				</div>
+			
+		
+				<section id="section10" class="demo">
+					<a href="#explore"><span></span>Explore</a>
+				  </section>	
 			</div>
 		</section>
-
+		
 		<!-- End Banner Area -->
+		<script>
+		$(function() {
+			$('a[href*=#]').on('click', function(e) {
+			  e.preventDefault();
+			  $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+			});
+		  });
+		</script>
 
 	<!-- Start About Area -->
 <section id="explore">
@@ -1246,7 +1262,7 @@
 				</div>
 
 				<div class="col-lg-6 col-md-12" data-aos="fade-left">
-					<img src="img/vector/faq.jpg" alt="Image" class="img-fluid">
+					<img src="img/vector/faqq.png" alt="Image" class="img-fluid">
 				</div>
 			</div>
 		</div>
@@ -1512,7 +1528,8 @@
 				      },
 				    });
 				            AOS.init({
-				            duration : 1200,
+				            duration : 1000,
+                            once : true,
 				        })
 				        
 				          
