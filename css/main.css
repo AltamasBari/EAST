@@ -1947,6 +1947,7 @@ footer .footer-nav li a:hover {
 }
 .accordion-item-header.active{
     color: red;
+}
 /*.accordion-item-header.active + .accordion-item-body{
     max-height: auto;
 }*/
@@ -1963,7 +1964,7 @@ footer .footer-nav li a:hover {
 
 .list-display li {
   margin-bottom:.4rem;
-  font-size:1.1rem;
+  font-size: 1.1rem;
 }
 .list-checkmarks {
   padding-left:1.5rem;
