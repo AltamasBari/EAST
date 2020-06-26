@@ -1666,7 +1666,7 @@ footer .footer-nav li a:hover {
   border-radius: 20px;
   background: transparent;
   border: 2px solid #e02827;
-  color: white;
+  color: black;
   display: inline-block;
   font-weight: 600;
   -webkit-transition: all 0.3s ease 0s;
@@ -1678,7 +1678,8 @@ footer .footer-nav li a:hover {
 
 #type:hover {
   outline: none;
-  background-color: rgb(190, 4, 3);
+  background-color: rgba(245, 0, 0, 0.9);
+  color: #fff;
 }
 
 /* #c-btn {
