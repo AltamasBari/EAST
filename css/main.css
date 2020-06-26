@@ -40,7 +40,8 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: 'Manrope', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5em;
@@ -2064,4 +2065,133 @@ color: #675EAC;
   }
 }
 
+/* chakrii animation*/
+.boxx {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 20px auto;
+  width: 350px;
+  height: auto;
+  background: #fffffe;
+  border-radius: 75px;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.5s box-shadow;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  padding-top: 10px; 
+}
+
+.boxx:hover {
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  transition: 0.5s;
+}
+
+.boxx:hover:before, .boxx:hover:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 350px;
+  height: 10px;
+  background: #FDA8CF;
+  border-radius: 75px;
+  z-index: -1;
+  animation: 1s clockwise infinite;
+  transition: all 0.3s;
+}
+
+.boxx:hover:after {
+  background: #F3CE5E;
+  animation: 2s counterclockwise infinite;
+}
+
+.first  .boxx:hover:before, .boxx:hover:after{height: 225px;}
+.second .boxx:hover:before{height: 225px;} .second .boxx:hover:after{height: 225px;}
+.third  .boxx:hover:before{height: 245px;} .third .boxx:hover:after{height: 245px;}
+.fourth .boxx:hover:before, .boxx:hover:after{height: 370px;}
+.fifth  .boxx:hover:before, .boxx:hover:after{height: 265px;}
+
+@keyframes clockwise {
+  0% {
+    top: -5px;
+    left: 0;
+  }
+  12% {
+    top: -2px;
+    left: 2px;
+  }
+  25% {
+    top: 0;
+    left: 5px;    
+  }
+  37% {
+    top: 2px;
+    left: 2px;
+  }
+  50% {
+    top: 5px;
+    left: 0;    
+  }
+  62% {
+    top: 2px;
+    left: -2px;
+  }
+  75% {
+    top: 0;
+    left: -5px;
+  }
+  87% {
+    top: -2px;
+    left: -2px;
+  }
+  100% {
+    top: -5px;
+    left: 0;    
+  }
+}
+
+@keyframes counterclockwise {
+  0% {
+    top: -5px;
+    right: 0;
+  }
+  12% {
+    top: -2px;
+    right: 2px;
+  }
+  25% {
+    top: 0;
+    right: 5px;    
+  }
+  37% {
+    top: 2px;
+    right: 2px;
+  }
+  50% {
+    top: 5px;
+    right: 0;    
+  }
+  62% {
+    top: 2px;
+    right: -2px;
+  }
+  75% {
+    top: 0;
+    right: -5px;
+  }
+  87% {
+    top: -2px;
+    right: -2px;
+  }
+  100% {
+    top: -5px;
+    right: 0;    
+  }
+}
+@media (max-width: 767px) {
+.features-content{
+  margin-left: -60px;
+  }
+}
 
