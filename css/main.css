@@ -1682,6 +1682,16 @@ footer .footer-nav li a:hover {
   color: #fff;
 }
 
+@media (max-width: 767px){
+  #type{
+    /*align-items: center;
+    text-align: center;
+    justify-content: center;*/
+    margin-left: 32%;
+    margin-right: 20%;
+  }
+}
+
 /* #c-btn {
   line-height: 40px;
   padding: 0 40px;
