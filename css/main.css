@@ -1684,11 +1684,10 @@ footer .footer-nav li a:hover {
 
 @media (max-width: 767px){
   #type{
-    /*align-items: center;
-    text-align: center;
-    justify-content: center;*/
-    margin-left: 32%;
-    margin-right: 20%;
+    display: inherit;
+    margin-inline-end: 22%;
+    margin-inline-start: 22%;
+   /*width: 50%;*/
   }
 }
 
