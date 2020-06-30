@@ -2084,7 +2084,8 @@ color: #675EAC;
   margin: 20px auto;
   width: 350px;
   height: auto;
-  background: #fffffe;
+  /*background: #fffffe;*/
+  background-color: #f9f8ff;
   border-radius: 75px;
   font-family: 'Montserrat', sans-serif;
   transition: 0.5s box-shadow;
