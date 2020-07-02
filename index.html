@@ -40,6 +40,19 @@
 	</head>
 
 	<body>
+		<!-- PRELOADER START-->
+		<div class="preloader">
+  <div class="preloader__container">
+        <h1 style="color: snow" class="preloader__container__percent"></h1>
+    <div class="preloader__container__preload">
+      <div class="preloader__container__preload__dot">         </div>
+      <div class="preloader__container__preload__dot">         </div>
+      <div class="preloader__container__preload__dot">         </div>
+      <div class="preloader__container__preload__dot">         </div>
+    </div>
+  </div>
+</div>	
+		<!-- PRELOADER END-->
 		<div id="loading"></div>
 		<div id="top"></div>
 		<!-- Start Header Area -->
@@ -118,7 +131,7 @@
 					</div>
 					<div class="row mb-5">
 						<div class="col-md-6" data-aos="fade-right">
-							<img src="img/vector/vissionNew.jpg" alt="Image" class="img-fluid">
+							<img src="img/vector/mission.png" alt="Image" class="img-fluid">
 						</div>
 						<div class="col-md-6 ml-auto pl-lg-5">
 							<br><h2 class="text-black mb-4 h3 font-weight-bold" style="color: red">Our Mission and Vission</h2>
@@ -1513,6 +1526,7 @@ crossorigin="anonymous"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/jquery.ajaxchimp.min.js"></script>
 <script src="js/jquery.sticky.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/mixitup.min.js"></script>
 <script src="js/main.js"></script>
@@ -1551,9 +1565,29 @@ crossorigin="anonymous"></script>
 		once : false,
 	})
 
-
 </script>
 
+<script>
+	// Gsap 3 version
+const preloadDot = $(".preloader__container__preload__dot");
+const tl = gsap.timeline({ repeat: 3 });
+tl
+.to(preloadDot, 0.3, { delay: 0.3, scale: 1.4, stagger: 0.1 })
+.to(preloadDot, 0.3, { scale: 1, stagger: {
+  amount: 0.35,
+  from: "start"
+}});
+
+let counter = 0;
+const loaderTimer = setInterval(function() {
+  counter++;
+  $(".preloader__container__percent").text(counter + "%");
+  if(counter == 100){
+    clearInterval(loaderTimer);
+    gsap.to(".preloader", 0.3, { delay: 0.5, y: "-100%" });
+  }
+}, 55);
+</script>
 
 </body>
 </html>
