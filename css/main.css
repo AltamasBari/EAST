@@ -1365,7 +1365,7 @@ td, th {
   left: 0;
   top: 0;
   width: 50%;
-  height: 110%;
+  height: 100%;
   background:  #f9f9ff;
   z-index: 2;
 }
