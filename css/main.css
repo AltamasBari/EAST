@@ -1365,7 +1365,7 @@ td, th {
   left: 0;
   top: 0;
   width: 50%;
-  height: 100%;
+  height: 110%;
   background:  #f9f9ff;
   z-index: 2;
 }
@@ -1662,7 +1662,7 @@ footer .footer-nav li a:hover {
 
 #type {
   line-height: 40px;
-  padding: 0 40px;
+  
   border-radius: 20px;
   background: transparent;
   border: 2px solid #e02827;
@@ -1681,15 +1681,15 @@ footer .footer-nav li a:hover {
   background-color: rgba(245, 0, 0, 0.9);
   color: #fff;
 }
-
+/* 
 @media (max-width: 767px){
   #type{
     display: inherit;
     margin-inline-end: 22%;
     margin-inline-start: 22%;
-   /*width: 50%;*/
+   *width: 50%;
   }
-}
+} */
 
 /* #c-btn {
   line-height: 40px;
