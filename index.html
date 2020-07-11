@@ -1467,14 +1467,16 @@
 								<form target="_blank" novalidate
 								action=""
 								method="get" class="subscription relative d-flex justify-content-center">
-								<input type="email" name="EMAIL" placeholder="Email address"
+								
+								<input id="email" type="email" name="EMAIL" placeholder="Email address"
 								onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"
 								required>
+
 								<div style="position: absolute; left: -5000px;">
 									<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1"
 									value="">
 								</div>
-								<button type="submit" class="newsletter-btn" name="subscribe"><span
+								<button id="btn" type="submit" class="newsletter-btn" name="subscribe"><span
 									class="lnr lnr-location"></span></button>
 									<div class="info"></div>
 								</form>
@@ -1568,6 +1570,32 @@ crossorigin="anonymous"></script>
 
 </script>
 
+<!-- FIREBASE START-->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCxSIUMgJjk9eL7lpmC4beZH22SBtxeoas",
+    authDomain: "east-vssut.firebaseapp.com",
+    databaseURL: "https://east-vssut.firebaseio.com",
+    projectId: "east-vssut",
+    storageBucket: "east-vssut.appspot.com",
+    messagingSenderId: "1063189198067",
+    appId: "1:1063189198067:web:53165a8e1937180465f386",
+    measurementId: "G-ETV01F6DX5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="js/fb-database.js"></script>
+<!-- FIREBASE END-->
 </body>
 </html>
