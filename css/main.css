@@ -1365,7 +1365,7 @@ td, th {
   left: 0;
   top: 0;
   width: 50%;
-  height: 110%;
+  height: 100%;
   background:  #f9f9ff;
   z-index: 2;
 }
@@ -1384,7 +1384,7 @@ td, th {
   top: 0;
   width: 50%;
   height: 110%;
-  background: url(../img/vector/join%20us.png) no-repeat center center/cover;
+  background: url(../img/vector/vhandNew.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 
