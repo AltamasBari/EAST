@@ -41,7 +41,7 @@
 
 	<body>
 		<!-- PRELOADER START-->
-		<div class="preloader">
+		 <div class="preloader">
   <div class="preloader__container">
         <h1 style="color: snow" class="preloader__container__percent"></h1>
     <div class="preloader__container__preload">
@@ -51,10 +51,10 @@
       <div class="preloader__container__preload__dot">         </div>
     </div>
   </div>
-</div>	
+</div>	 
 		<!-- PRELOADER END-->
-		<div id="loading"></div>
-		<div id="top"></div>
+		 <div id="loading"></div>
+		<div id="top"></div> 
 		<!-- Start Header Area -->
 		<header class="default-header">
 			<div class="sticky-header">
@@ -1464,9 +1464,7 @@
 							<h6 class="text-white text-uppercase mb-20">Newsletter</h6>
 							<p>For more information and daily updates subscribe to our newsletter by providing your email address below.</p>
 							<div id="mc_embed_signup">
-								<form target="_blank" novalidate
-								action=""
-								method="get" class="subscription relative d-flex justify-content-center">
+								<form method="GET" id="nform" class="subscription relative d-flex justify-content-center">
 								
 								<input id="email" type="email" name="EMAIL" placeholder="Email address"
 								onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"
@@ -1476,7 +1474,7 @@
 									<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1"
 									value="">
 								</div>
-								<button id="btn" type="submit" class="newsletter-btn" name="subscribe"><span
+								<button id="btn" type="submit" onclick="check()" class="newsletter-btn" name="subscribe"><span
 									class="lnr lnr-location"></span></button>
 									<div class="info"></div>
 								</form>
@@ -1537,8 +1535,6 @@ crossorigin="anonymous"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-
 <script>
 	var swiper = new Swiper('.swiper-container', {
 		effect: 'coverflow',
@@ -1597,5 +1593,7 @@ crossorigin="anonymous"></script>
 </script>
 <script src="js/fb-database.js"></script>
 <!-- FIREBASE END-->
+
+
 </body>
 </html>
