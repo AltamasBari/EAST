@@ -2117,11 +2117,11 @@ color: #675EAC;
   animation: 2s counterclockwise infinite;
 }
 
-.first  .boxx:hover:before, .boxx:hover:after{height: 225px;}
-.second .boxx:hover:before{height: 225px;} .second .boxx:hover:after{height: 225px;}
-.third  .boxx:hover:before{height: 245px;} .third .boxx:hover:after{height: 245px;}
-.fourth .boxx:hover:before, .boxx:hover:after{height: 370px;}
-.fifth  .boxx:hover:before, .boxx:hover:after{height: 265px;}
+.first  .boxx:hover:before, .boxx:hover:after{height: 205px;}
+.second .boxx:hover:before{height: 245px;} .second .boxx:hover:after{height: 245px;}
+.third  .boxx:hover:before{height: 245px;} .third .boxx:hover:after{height: 265px;}
+.fourth .boxx:hover:before, .boxx:hover:after{height: 390px;}
+.fifth  .boxx:hover:before, .boxx:hover:after{height: 285px;}
 
 @keyframes clockwise {
   0% {
