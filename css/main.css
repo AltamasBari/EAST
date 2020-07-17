@@ -1969,7 +1969,9 @@ footer .footer-nav li a:hover {
 @media(max-width:767px){
     html{
         font-size: 14px;
-    }  
+    }
+    /* .fifth  .boxx:hover:before{height: 300px;}, .boxx:hover:after{height: 385px;} */
+  
 }
 
 
@@ -2117,11 +2119,15 @@ color: #675EAC;
   animation: 2s counterclockwise infinite;
 }
 
-.first  .boxx:hover:before, .boxx:hover:after{height: 225px;}
-.second .boxx:hover:before{height: 225px;} .second .boxx:hover:after{height: 225px;}
-.third  .boxx:hover:before{height: 245px;} .third .boxx:hover:after{height: 245px;}
-.fourth .boxx:hover:before, .boxx:hover:after{height: 370px;}
-.fifth  .boxx:hover:before, .boxx:hover:after{height: 265px;}
+.first  .boxx:hover:before, .boxx:hover:after{height: 185px;}
+.second .boxx:hover:before{height: 245px;} .second .boxx:hover:after{height: 245px;}
+.third  .boxx:hover:before{height: 245px;} .third .boxx:hover:after{height: 265px;}
+.fourth .boxx:hover:before, .boxx:hover:after{height: 400px;}
+.fifth  .boxx:hover:before, .boxx:hover:after{height: 325px;}
+
+@media(min-width:767px){
+  .fifth  .boxx:hover:before, .boxx:hover:after{height: 295px;}
+}
 
 @keyframes clockwise {
   0% {
