@@ -62,7 +62,7 @@ $(document).ready(function(){
         dot: true,
         items: 3,
         margin: 30,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:3000,
         autoplayHoverPause:true,
         animateOut: 'fadeOutLeft',
@@ -72,7 +72,7 @@ $(document).ready(function(){
                 items:1,
             },
             600:{
-                items:3,
+                items:4,
              }
         }
     })
