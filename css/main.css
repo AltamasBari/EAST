@@ -1456,7 +1456,7 @@ td, th {
   margin-top: 15px;
 }
 
-/*.active-testimonial-carousel .single-testimonial {
+.active-testimonial-carousel .single-testimonial {
   padding: 40px 20px;
   background: #fff;
   text-align: center;
@@ -1502,7 +1502,7 @@ td, th {
 
 .active-testimonial-carousel .owl-dots .owl-dot.active {
   background: #777777;
-}*/
+}
 
 .single-publish {
   margin-top: 30px;
